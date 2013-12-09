@@ -1,0 +1,136 @@
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -40px;
+  /* Pad bottom by footer height */
+  padding: 0 0 40px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 40px;
+  background-color: #d1d1d1;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+  text-align: center;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+#taskforces:after {
+      top: 50px;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      border-color: rgba(23, 62, 109, 0);
+      border-top-color: #000;
+      border-width: 15px;
+      margin-left: -15px;
+      cursor: pointer;
+}
+
+.navbar #w3clogo {
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-color: #fff;
+}
+
+.navbar > #taskforces {
+  padding-top: 10px;
+  margin: 0 50px 0 50px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+}
+
+.navbar > #menu {
+  width: 50px;
+  float: right;
+  background-color: #4c5e27;
+  height: 50px;
+  cursor: pointer;
+}
+
+#footer > #github {
+  width: 40px;
+  float: left;
+}
+
+#footer > #twitter {
+  width: 40px;
+  float: right;
+}
+
+p.lead {
+      font-size: 21px;
+}
+
+#taskforcelist {
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: none;
+}
+
+#taskforcelist > div {
+      width: 50%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+#taskforcelist > div:nth-child(odd) {
+      float: right;
+}
+
+#menulist {
+      top: 50px;
+      height: 100%;
+      right: 0px;
+      margin-right: -200px;
+      position: absolute;
+      width: 200px;
+      background-color: #4c5e27;
+}
+
+#menulist > div {
+      width: 100%;
+      padding: 10px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      float: right;
+      background-color: #4c5e27;
+      cursor: pointer;;
+}
+
